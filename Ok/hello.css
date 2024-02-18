@@ -1,0 +1,25 @@
+<style>
+    body {
+        background-color: #f5f5f5; /* Light gray background */
+        font-family: Arial, sans-serif; /* Default font */
+    }
+    .container {
+        max-width: 800px; /* Set maximum width for content */
+        margin: 0 auto; /* Center content horizontally */
+        padding: 20px; /* Add padding around content */
+    }
+    .image-container {
+        display: flex; /* Use flexbox for image layout */
+        justify-content: space-between; /* Distribute images evenly */
+        margin-top: 20px; /* Add space above images */
+    }
+    .image-container img {
+        width: 30%; /* Set width of images */
+        max-width: 200px; /* Limit maximum width of images */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .image-label {
+        text-align: center; /* Center align image labels */
+        margin-top: 10px; /* Add space above labels */
+    }
+</style>
